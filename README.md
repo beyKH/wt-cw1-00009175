@@ -9,16 +9,21 @@ logo and navigations
 ## Main sections
 
 ### About me
+  Who am I
 
 ### Skills
+  My skills
 
 ### Work
+  Projects
 
 ### Experience
-
+  Where I have worked
 ### Blog
+  Visited places
 
 ### Contact
+  Contacting with me
 
 ## Footer
 social links

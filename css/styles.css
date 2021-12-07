@@ -542,6 +542,152 @@ img {
   opacity: 1;
 }
 
+/* TABLE experience */
+
+.experience__title {
+  border: 1px solid;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  text-align: left;
+  padding: 8px;
+  background-color: #4070f457;
+  color: white;
+}
+
+tr:nth-child(odd) {
+  background-color: var(--primary-color);
+}
+
+/* BLOG */
+
+.blog-section__heading {
+  text-align: center;
+}
+
+.blog__list {
+  margin: 0;
+  margin-left: -30px;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.blog__item {
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+.blog__wrapper {
+  height: 185px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.blog__img {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 1px 4px rgb(146 161 176 / 15%);
+  min-height: 350px;
+  object-fit: cover;
+  display: block;
+  width: 325px;
+  height: 185px;
+}
+
+
+.blog__wrapper {
+  position: relative;
+  z-index: 10;
+}
+
+.blog__shower {
+  border-radius: 8px;
+  overflow: hidden;
+  position: absolute;
+  /* display: none; */
+  opacity: 0;
+  top: 0;
+  left: 0;
+  color: transparent;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  z-index: 10;
+  text-align: center;
+  transition: opacity 0.5s ease;
+}
+
+
+.blog__wrapper:hover .blog__shower {
+  display: flex;
+  color: var(--white-color);
+  align-items: center;
+  background-color: #a79e9e6b;
+  justify-content: center;
+  opacity: 1;
+}
+
+/* CONTACT SECTION */
+.contact-section {
+  text-align: center;
+}
+
+
+.contact-form {
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact-form__group {
+  width: 100%;
+}
+
+.contact-form__group:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.contact-form__input {
+  width: 100%;
+  display: block;
+  border: 2px solid var(--black-color);
+  border-radius: 8px;
+  padding: 10px 20px;
+
+}
+
+.contact-form__input:not(:placeholder-shown):not(:focus):invalid {
+  border-color: red;
+}
+
+.contact-form__textarea {
+  width: 100%;
+  height: 180px;
+  resize: none;
+  border: 2px solid var(--black-color);
+  border-radius: 8px;
+  padding: 10px 20px;
+}
+
+
+.contact-form__button-wrapper {
+  text-align: right;
+}
+
+
 @media only screen and (max-width: 1075px) {
   .work__item {
     width: 300px;

@@ -252,3 +252,63 @@ img {
   background-color: var(--primary-color);
   width: 100%;
 }
+
+
+
+/* MEDIA FOR RESPONSIVE */
+/* SITE-HEADER RESPONSIVE TABLET */
+@media only screen and (max-width: 768px) {
+  .section {
+    padding: 50px 0px;
+  }
+
+  .site-header__toggler {
+    display: block;
+  }
+
+  .site-header--open .site-header__toggler {
+    background-image: url("../img/icon-close.svg");
+  }
+
+  .sitenav__list {
+    display: none;
+  }
+
+
+  .site-header--open .sitenav__list {
+    display: block;
+    position: fixed;
+    padding: 25px;
+    top: 65px;
+    left: 25%;
+    height: 100%;
+    width: 80%;
+    background-color: var(--black-color);
+  }
+
+  .sitenav__link {
+    color: var(--white-color);
+  }
+
+  .sitenav__item:not(:last-child) {
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width:400px) {
+  .section {
+    padding: 40px 0px;
+  }
+
+  .contact-form {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .contact-form {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

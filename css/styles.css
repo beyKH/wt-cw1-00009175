@@ -202,6 +202,7 @@ img {
   list-style: none;
   text-decoration: none;
 }
+
 /* FOR EACH TIME BUT NOT LAST */
 .sitenav__item:not(:last-child) {
   margin-right: 30px;
@@ -252,8 +253,6 @@ img {
   background-color: var(--primary-color);
   width: 100%;
 }
-
-
 
 /* MEDIA FOR RESPONSIVE */
 /* SITE-HEADER RESPONSIVE TABLET */
@@ -311,4 +310,45 @@ img {
     margin-left: auto;
     margin-right: auto;
   }
+}
+
+/* SITE-FOOTER */
+/* SITE-FOOTER */
+.site-footer {
+  color: var(--white-color);
+  padding: 24px 0;
+  background-color: var(--black-color);
+  text-align: center;
+}
+
+.site-footer__heading {
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.site-footer__links {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  text-align: center;
+  justify-content: center;
+}
+
+.site-footer__links-item:not(:last-child) {
+  margin-right: 20px;
+}
+
+.site-footer__links-link {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  color: var(--white-color);
+  opacity: 0.9;
+  transition: opacity 0.3s ease;
+}
+
+.site-footer__links-link {
+  opacity: 0.6;
 }

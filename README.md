@@ -8,4 +8,18 @@ logo and navigations
 
 ## Main sections
 
+### About me
+
+### Skills
+
+### Work
+
+### Experience
+
+### Blog
+
+### Contact
+
+## Footer
+social links
 

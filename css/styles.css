@@ -630,7 +630,6 @@ tr:nth-child(odd) {
   transition: opacity 0.5s ease;
 }
 
-
 .blog__wrapper:hover .blog__shower {
   display: flex;
   color: var(--white-color);

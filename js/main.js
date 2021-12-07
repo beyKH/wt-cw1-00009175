@@ -17,28 +17,28 @@ elSkillsItem.forEach(item =>{
 
 // WORKING SECTOIN CREATING ELEMENT
 const elWorkList = document.querySelector(".work__list");
-
+// GOING THROUGH EACH OF THE ELEMENT OF THE WORK
 for( work of works){
+  //ELEMENT CREATING
   li = document.createElement("li");
   a = document.createElement("a");
   workWrapper = document.createElement("div");
   p = document.createElement("p");
   workShower = document.createElement("div");
   img = document.createElement("img");
-
+  // GIVING VALUES
   a.href = work.link;
   a.target = "_blank";
   img.src = work.img;
   p.textContent = work.text;
-
+  // ADDING CLASS
   li.classList.add("work__item");
   workWrapper.classList.add("work__wrapper");
   workShower.classList.add("work__shower");
   img.classList.add("work__img");
-
   p.classList.add("work__text");
 
-
+  // APPEING ELEMENT EACH OTHER
   workWrapper.appendChild(img);
   workShower.appendChild(p);
   workWrapper.appendChild(workShower);

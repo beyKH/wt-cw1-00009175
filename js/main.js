@@ -2,6 +2,8 @@
 //  ADDING CLASSES ANU
 const elBtnSitenavToggler = document.querySelector(".js-site-header__toggler");
 const elSiteHeader = document.querySelector(".site-header");
+
+// TOGGLER OF THE HAMBURGER BUTTON
 elBtnSitenavToggler.addEventListener("click", function () {
   elSiteHeader.classList.toggle("site-header--open");
 });
@@ -15,9 +17,11 @@ elSkillsItem.forEach(item =>{
   counter+=1;
 });
 
-// WORKING SECTOIN CREATING ELEMENT
 const elWorkList = document.querySelector(".work__list");
-// GOING THROUGH EACH OF THE ELEMENT OF THE WORK
+
+// FUNCTION CREATE ELEMENT AND APPENDING ITEMS OF WORK
+function creatingWorkListItems() {
+  // GOING THROUGH EACH OF THE ELEMENT OF THE WORK
 for( work of works){
   //ELEMENT CREATING
   li = document.createElement("li");
@@ -47,4 +51,7 @@ for( work of works){
 
   elWorkList.appendChild(li);
 }
+}
 
+
+creatingWorkListItems();

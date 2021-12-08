@@ -28,3 +28,9 @@ logo and navigations
 ## Footer
 social links
 
+
+
+
+### LINKS to Hostings
+#### Github : https://github.com/beyKH/wt-cw1-00009175
+#### Netlify : https://wt-cw1-00009175.netlify.app/

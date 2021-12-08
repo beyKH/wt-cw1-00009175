@@ -1,42 +1,12 @@
 /* USING COLORS AND OTHER VALUES AS A VARIABLE */
 :root {
-  --main-font: "Poppins", "Arial", sans-serif;
+  --main-font: "Roboto","Arial",sans-serif;
   --black-color: #0E2431;
   --primary-color: #4070F4;
   --white-color: #fff;
 }
 
-/* IMPORTING FONTS FROM FOLDER */
-/* FONTS */
-@font-face {
-  font-family: "Poppins";
-  src: url("../fonts/Poppins-SemiBold.woff2") format("woff2"),
-    url("../fonts/Poppins-SemiBold.woff") format("woff");
-  font-weight: 600;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Poppins";
-  src: url("../fonts/Poppins-Bold.woff2") format("woff2"),
-    url("../fonts/Poppins-Bold.woff") format("woff");
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Poppins";
-  src: url("../fonts/Poppins-Regular.woff2") format("woff2"),
-    url("../fonts/Poppins-Regular.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
 /* GENERAL CODE FOR HTML */
-/* GENERAL */
 html {
   box-sizing: border-box;
   height: 100%;
